@@ -51,7 +51,7 @@ if (access_token) {
       'https://foursquare.com/oauth2/authenticate' +
       '?client_id=' + config.clientId +
       '&response_type=token' +
-      '&redirect_uri=http://localhost:8080'
+      '&redirect_uri=https://oauth.bradenhs.com'
   })
 }
 
